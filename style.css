@@ -74,3 +74,19 @@ ol {
 ul {
   margin-bottom: 2.4 rem;
 }
+
+@media (min-width: 1120px) {
+  main {
+    flex-direction: row;
+    max-width: 100%;
+    gap: 16rem;
+  }
+
+  .recipe {
+    max-width: 43.5rem;
+  }
+
+  .ingredients {
+    max-width: 52.5rem;
+  }
+}
